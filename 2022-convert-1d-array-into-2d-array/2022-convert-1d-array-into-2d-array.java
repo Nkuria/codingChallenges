@@ -3,7 +3,7 @@ class Solution {
         int[][] arr = new int[m][n];
         if(m*n != original.length) {
             int[][] result = {};
-            return result;
+            return new int[0][0] ;
         }
         int counter = 0;
         
