@@ -18,10 +18,7 @@ class Solution {
               
             }
         }
-        
-        int row = 0;
-        int column = 0;
-        
+                
       for(int m = 0; m < 9; m+=3) {
             for(int k = 0; k < 9; k+=3)  {
                  HashSet<Character> grid = new HashSet(); 
