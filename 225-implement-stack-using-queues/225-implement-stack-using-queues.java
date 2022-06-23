@@ -1,7 +1,6 @@
 class MyStack {
     
     Queue<Integer> adder = new LinkedList<>();
-    Queue<Integer> remover = new LinkedList<>();
     
 
     public MyStack() {
