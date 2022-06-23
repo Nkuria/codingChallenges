@@ -8,7 +8,7 @@ class MyQueue {
     
     public void push(int x) {
         addS.push(x);  
-            System.out.println(addS.peek());
+    
         
     }
     
