@@ -23,16 +23,15 @@ class MyQueue {
     }
     
     public int pop() {
-        if(removeS.isEmpty()) moveElements();
+        moveElements();
         return removeS.pop();
         
     }
     
     public int peek() {
-        if(removeS.isEmpty()) 
-        {
+       
             moveElements();
-        }
+        
         return removeS.peek();
         
     }
