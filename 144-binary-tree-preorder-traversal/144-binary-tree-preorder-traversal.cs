@@ -19,7 +19,7 @@ public class Solution {
         Stack<TreeNode> s = new Stack<TreeNode>();
         s.Push(root);
         
-        while(s.Count != 0) {
+        while(s.Count >0) {
             TreeNode x = s.Pop();
             list1.Add(x.val);
             
