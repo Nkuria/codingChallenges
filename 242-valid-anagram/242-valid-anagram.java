@@ -1,10 +1,10 @@
 class Solution {
     public boolean isAnagram(String s, String t) {
-        
-        HashMap<Character, Integer> mp = new HashMap<>();
         if(s.length() != t.length()) {
             return false;
         }
+        
+        HashMap<Character, Integer> mp = new HashMap<>();
         
         for(int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
